@@ -1,0 +1,46 @@
+# Shared manuscripts repository
+
+# OS / editor noise
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Environments / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large media & generated artifacts (track sources, not binaries)
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.m4a
+*.mp4
+*.wav
+*.mp3
+*.onnx
+*.bin
